@@ -19,14 +19,6 @@ pipeline{
                 echo ' buiding artifact from develop branch'
             }
         }
-        stage('feature branch deploy code'){
-            when{
-                branch 'feature/*'
-            }
-            steps{
-                echo 'feature branch deploy code'
-                echo ' buiding artifact from feature branch'
-            }
-        }
+        
     }
 }
