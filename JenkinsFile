@@ -17,8 +17,9 @@ pipeline{
             steps{
                 echo 'develop branch deploy code'
                 echo ' buiding artifact from develop branch'
+
+       
             }
         }
-        
     }
 }
